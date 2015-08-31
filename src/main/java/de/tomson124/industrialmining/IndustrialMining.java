@@ -5,7 +5,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = "IndustrialMining", name = "Industrial Mining", version = "1.7.10.0.0.1")
+@Mod(modid = "IndustrialMining", name = "Industrial Mining", version = "1.7.10-0.0.1")
 public class IndustrialMining {
     @Mod.Instance("IndustrialMining")
     public static IndustrialMining instance;
