@@ -5,11 +5,11 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import de.tomson124.industrialmining.configuration.ConfigurationHandler;
+import de.tomson124.industrialmining.handler.ConfigurationHandler;
 import de.tomson124.industrialmining.proxy.IProxy;
 import de.tomson124.industrialmining.reference.Reference;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTOR_CLASS)
 public class IndustrialMining {
     @Mod.Instance(Reference.MOD_ID)
     public static IndustrialMining instance;
