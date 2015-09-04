@@ -7,18 +7,12 @@ import net.minecraft.item.Item;
 
 public class CreativeTabIM {
 
-    public static final CreativeTabs IM_TAB = new CreativeTabs(Reference.MOD_ID) {
+    public static final CreativeTabs IM_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase()) {
 
         @Override
         public Item getTabIconItem() {
 
             return ModItems.mapleLeaf;
-        }
-
-        @Override
-        public String getTranslatedTabLabel() {
-
-            return "Industrial Mining";
         }
     };
 }
