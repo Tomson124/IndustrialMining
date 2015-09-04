@@ -6,5 +6,6 @@ public class BlockFlag extends BlockIndustrialMining {
 
         super();
         this.setBlockName("flag");
+        this.setHardness(2.0F);
     }
 }

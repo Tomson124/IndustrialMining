@@ -12,6 +12,7 @@ import de.tomson124.industrialmining.init.ModItems;
 import de.tomson124.industrialmining.proxy.IProxy;
 import de.tomson124.industrialmining.reference.Reference;
 import de.tomson124.industrialmining.utility.LogHelper;
+import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTOR_CLASS)
 public class IndustrialMining {
@@ -43,6 +44,11 @@ public class IndustrialMining {
     public void postInit(FMLPostInitializationEvent event) {
 
         LogHelper.info("Post Initialization Complete!");
+
+        for (String oreName : OreDictionary.getOreNames()) {
+
+            LogHelper.info(oreName);
+        }
     }
 
 }
