@@ -7,6 +7,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import de.tomson124.industrialmining.handler.ConfigurationHandler;
+import de.tomson124.industrialmining.init.ModBlocks;
 import de.tomson124.industrialmining.init.ModItems;
 import de.tomson124.industrialmining.proxy.IProxy;
 import de.tomson124.industrialmining.reference.Reference;
@@ -28,6 +29,8 @@ public class IndustrialMining {
         LogHelper.info("Pre Initialization Complete!");
 
         ModItems.init();
+
+        ModBlocks.init();
     }
 
     @Mod.EventHandler
