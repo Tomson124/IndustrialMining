@@ -2,6 +2,7 @@ package de.tomson124.industrialmining.item;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import de.tomson124.industrialmining.creativetab.CreativeTabIM;
 import de.tomson124.industrialmining.reference.Reference;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
@@ -12,6 +13,7 @@ public class ItemIndustrialMining extends Item {
     public ItemIndustrialMining() {
 
         super();
+        this.setCreativeTab(CreativeTabIM.IM_TAB);
     }
 
     @Override
