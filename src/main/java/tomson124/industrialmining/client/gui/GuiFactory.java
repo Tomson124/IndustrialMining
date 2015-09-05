@@ -1,4 +1,4 @@
-package de.tomson124.industrialmining.client.gui;
+package tomson124.industrialmining.client.gui;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;

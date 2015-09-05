@@ -1,4 +1,4 @@
-package de.tomson124.industrialmining.item;
+package tomson124.industrialmining.item;
 
 public class ItemMapleLeave extends ItemIndustrialMining {
 

@@ -1,7 +1,7 @@
-package de.tomson124.industrialmining.utility;
+package tomson124.industrialmining.utility;
 
 import cpw.mods.fml.common.FMLLog;
-import de.tomson124.industrialmining.reference.Reference;
+import tomson124.industrialmining.reference.Reference;
 import org.apache.logging.log4j.Level;
 
 public class LogHelper

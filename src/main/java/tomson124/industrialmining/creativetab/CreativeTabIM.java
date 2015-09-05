@@ -1,7 +1,7 @@
-package de.tomson124.industrialmining.creativetab;
+package tomson124.industrialmining.creativetab;
 
-import de.tomson124.industrialmining.init.ModItems;
-import de.tomson124.industrialmining.reference.Reference;
+import tomson124.industrialmining.init.ModItems;
+import tomson124.industrialmining.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

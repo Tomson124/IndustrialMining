@@ -1,4 +1,4 @@
-package de.tomson124.industrialmining.utility;
+package tomson124.industrialmining.utility;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;

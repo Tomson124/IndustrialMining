@@ -1,9 +1,9 @@
-package de.tomson124.industrialmining.item;
+package tomson124.industrialmining.item;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import de.tomson124.industrialmining.creativetab.CreativeTabIM;
-import de.tomson124.industrialmining.reference.Reference;
+import tomson124.industrialmining.creativetab.CreativeTabIM;
+import tomson124.industrialmining.reference.Reference;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

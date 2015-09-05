@@ -1,8 +1,8 @@
-package de.tomson124.industrialmining.client.gui;
+package tomson124.industrialmining.client.gui;
 
 import cpw.mods.fml.client.config.GuiConfig;
-import de.tomson124.industrialmining.handler.ConfigurationHandler;
-import de.tomson124.industrialmining.reference.Reference;
+import tomson124.industrialmining.handler.ConfigurationHandler;
+import tomson124.industrialmining.reference.Reference;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;

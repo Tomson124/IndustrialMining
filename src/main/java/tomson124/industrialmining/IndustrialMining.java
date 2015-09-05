@@ -1,4 +1,4 @@
-package de.tomson124.industrialmining;
+package tomson124.industrialmining;
 
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -6,13 +6,13 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import de.tomson124.industrialmining.handler.ConfigurationHandler;
-import de.tomson124.industrialmining.init.ModBlocks;
-import de.tomson124.industrialmining.init.ModItems;
-import de.tomson124.industrialmining.init.Recipes;
-import de.tomson124.industrialmining.proxy.IProxy;
-import de.tomson124.industrialmining.reference.Reference;
-import de.tomson124.industrialmining.utility.LogHelper;
+import tomson124.industrialmining.handler.ConfigurationHandler;
+import tomson124.industrialmining.init.ModBlocks;
+import tomson124.industrialmining.init.ModItems;
+import tomson124.industrialmining.init.Recipes;
+import tomson124.industrialmining.proxy.IProxy;
+import tomson124.industrialmining.reference.Reference;
+import tomson124.industrialmining.utility.LogHelper;
 import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTOR_CLASS)

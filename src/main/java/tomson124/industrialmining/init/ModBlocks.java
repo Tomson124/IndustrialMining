@@ -1,9 +1,9 @@
-package de.tomson124.industrialmining.init;
+package tomson124.industrialmining.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import de.tomson124.industrialmining.block.BlockFlag;
-import de.tomson124.industrialmining.block.BlockIndustrialMining;
-import de.tomson124.industrialmining.reference.Reference;
+import tomson124.industrialmining.block.BlockFlag;
+import tomson124.industrialmining.block.BlockIndustrialMining;
+import tomson124.industrialmining.reference.Reference;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModBlocks {

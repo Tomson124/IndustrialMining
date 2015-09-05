@@ -1,8 +1,8 @@
-package de.tomson124.industrialmining.handler;
+package tomson124.industrialmining.handler;
 
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import de.tomson124.industrialmining.reference.Reference;
+import tomson124.industrialmining.reference.Reference;
 import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;

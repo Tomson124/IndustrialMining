@@ -1,4 +1,4 @@
-package de.tomson124.industrialmining.block;
+package tomson124.industrialmining.block;
 
 public class BlockFlag extends BlockIndustrialMining {
 
