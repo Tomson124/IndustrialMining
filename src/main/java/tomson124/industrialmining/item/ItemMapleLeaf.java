@@ -1,8 +1,8 @@
 package tomson124.industrialmining.item;
 
-public class ItemMapleLeave extends ItemIndustrialMining {
+public class ItemMapleLeaf extends ItemIndustrialMining {
 
-    public ItemMapleLeave() {
+    public ItemMapleLeaf() {
 
         super();
         this.setUnlocalizedName("mapleLeaf");
