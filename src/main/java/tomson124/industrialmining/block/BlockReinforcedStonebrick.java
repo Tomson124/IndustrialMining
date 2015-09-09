@@ -6,6 +6,6 @@ public class BlockReinforcedStonebrick extends BlockIndustrialMining {
 
         super();
         this.setBlockName("reinforcedStonebrick");
-        this.setHardness(1.5F);
+        this.setHardness(1.8F);
     }
 }

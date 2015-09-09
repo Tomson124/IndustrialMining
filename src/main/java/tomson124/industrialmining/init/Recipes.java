@@ -9,6 +9,6 @@ public class Recipes {
 
     public static void init() {
 
-        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.reinforcedStonebrick), "sws", "w w", "sws", 's',new ItemStack(Blocks.stonebrick), 'w', "plankWood"));
+        GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.reinforcedStonebrick, 2), "sis", "isi", "sis", 's',new ItemStack(Blocks.stonebrick), 'i', "ingotIron"));
     }
 }
