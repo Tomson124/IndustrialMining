@@ -6,6 +6,7 @@ public class BlockFurnaceBricks extends BlockIndustrialMining {
 
         super();
         this.setBlockName("furnaceBricks");
-        this.setHardness(1.4F);
+        this.setHardness(2.5F);
+        this.setHarvestLevel("pickaxe", 1);
     }
 }
