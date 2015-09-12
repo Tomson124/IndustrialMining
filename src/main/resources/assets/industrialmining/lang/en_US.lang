@@ -1,3 +1,5 @@
-item.industrialmining:mapleLeaf.name=Maple Leaf of Awesomeness
+item.industrialmining:refinedClay.name=Refined Clay
+item.industrialmining:hardenedBrick.name=Hardened Brick
+tile.industrialmining:furnaceBricks.name=Furnace Bricks
 tile.industrialmining:reinforcedStonebrick.name=Reinforced Stone Bricks
 itemGroup.industrialmining=Industrial Mining

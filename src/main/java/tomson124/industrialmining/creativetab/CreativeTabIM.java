@@ -12,7 +12,7 @@ public class CreativeTabIM {
         @Override
         public Item getTabIconItem() {
 
-            return ModItems.mapleLeaf;
+            return ModItems.refinedClay;
         }
     };
 }
