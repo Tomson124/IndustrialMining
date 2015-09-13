@@ -24,7 +24,7 @@ public class BlockIndustrialMining extends Block {
     @Override
     public String getUnlocalizedName()
     {
-        return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+        return String.format("tile.%s%s", Reference.MOD_ID_LOWER + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     @Override

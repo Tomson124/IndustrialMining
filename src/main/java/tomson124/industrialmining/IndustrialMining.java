@@ -14,6 +14,7 @@ import tomson124.industrialmining.proxy.IProxy;
 import tomson124.industrialmining.reference.Reference;
 import tomson124.industrialmining.utility.LogHelper;
 import net.minecraftforge.oredict.OreDictionary;
+import tomson124.industrialmining.version.VersionChecker;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTOR_CLASS)
 public class IndustrialMining {
