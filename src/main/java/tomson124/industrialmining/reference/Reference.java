@@ -1,6 +1,7 @@
 package tomson124.industrialmining.reference;
 
 public class Reference {
+
     public static final String MOD_ID = "IndustrialMining";
     public static final String MOD_ID_LOWER = MOD_ID.toLowerCase();
     public static final String MOD_NAME = "Industrial Mining";

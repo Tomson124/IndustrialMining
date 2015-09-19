@@ -1,6 +1,6 @@
 package tomson124.industrialmining.creativetab;
 
-import tomson124.industrialmining.init.ModItems;
+import tomson124.industrialmining.init.ModBlocks;
 import tomson124.industrialmining.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -12,7 +12,7 @@ public class CreativeTabIM {
         @Override
         public Item getTabIconItem() {
 
-            return ModItems.refinedClay;
+            return Item.getItemFromBlock(ModBlocks.smeltingFurnace);
         }
     };
 }

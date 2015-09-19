@@ -1,4 +1,10 @@
+#Items
 item.industrialmining:refinedClay.name=Refined Clay
 item.industrialmining:hardenedBrick.name=Hardened Brick
+
+#Blocks
 tile.industrialmining:furnaceBricks.name=Furnace Bricks
+tile.industrialmining:smeltingFurnace.name=Smelting Furnace
+
+#Creative Tab
 itemGroup.industrialmining=Industrial Mining

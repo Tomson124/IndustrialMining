@@ -9,12 +9,12 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import tomson124.industrialmining.handler.ConfigurationHandler;
 import tomson124.industrialmining.init.ModBlocks;
 import tomson124.industrialmining.init.ModItems;
+import tomson124.industrialmining.init.ModTileEntities;
 import tomson124.industrialmining.init.Recipes;
 import tomson124.industrialmining.proxy.IProxy;
 import tomson124.industrialmining.reference.Reference;
 import tomson124.industrialmining.utility.LogHelper;
 import net.minecraftforge.oredict.OreDictionary;
-import tomson124.industrialmining.version.VersionChecker;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTOR_CLASS)
 public class IndustrialMining {
@@ -34,6 +34,8 @@ public class IndustrialMining {
 
         ModBlocks.init();
 
+        ModTileEntities.init();
+
         LogHelper.info("Pre Initialization Complete!");
     }
 
@@ -41,6 +43,7 @@ public class IndustrialMining {
     public void init(FMLInitializationEvent event) {
 
         Recipes.init();
+
         LogHelper.info("Initialization Complete!");
     }
 
@@ -49,10 +52,6 @@ public class IndustrialMining {
 
         LogHelper.info("Post Initialization Complete!");
 
-        for (String oreName : OreDictionary.getOreNames()) {
-
-            LogHelper.info(oreName);
-        }
     }
 
 }
