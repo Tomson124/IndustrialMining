@@ -23,7 +23,7 @@ public class BlockSmeltingFurnace extends BlockIndustrialMiningTileEntity {
 
     public BlockSmeltingFurnace() {
 
-        super();
+        super(Material.rock);
         this.setBlockName(Names.Blocks.SMELTING_FURNACE);
         this.setHardness(1.8F);
         this.setResistance(10.0F);
@@ -32,7 +32,7 @@ public class BlockSmeltingFurnace extends BlockIndustrialMiningTileEntity {
     }
 
     @Override
-    public TileEntity createNewTileEntity(World p_149915_1_, int p_149915_2_) {
+    public TileEntity createNewTileEntity(World world, int par2) {
         return new TileEntitySmeltingFurnace();
     }
 

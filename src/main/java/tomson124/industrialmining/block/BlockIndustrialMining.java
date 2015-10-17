@@ -2,6 +2,7 @@ package tomson124.industrialmining.block;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.BlockContainer;
 import tomson124.industrialmining.creativetab.CreativeTabIM;
 import tomson124.industrialmining.reference.Reference;
 import net.minecraft.block.Block;
